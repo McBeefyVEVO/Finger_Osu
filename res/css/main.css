@@ -1,5 +1,5 @@
 body {
-    background-image:url("./res/img/background.jpg");
+    background-image:url("/res/css/background.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -42,7 +42,7 @@ body {
     border-radius: 50%;
     width: 120px;
     height: 120px;
-    background-image: url("./res/img/cursor_final.png");
+    background-image: url("/res/css/cursor_final.png");
     transition: 0.10s;
 
     display: none;
