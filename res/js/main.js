@@ -5,7 +5,7 @@ const score = document.getElementById("score");
 
 
 start.onclick = () => {
-    document.body.style.background = "url(./res/img/play_background.jpg)";
+    document.body.style.background = "url(/res/img/play_background.jpg)";
     document.body.style.backgroundRepeat = "no-repeat";
     document.body.style.backgroundPosition = "center center";
     document.body.style.backgroundSize = "cover";
