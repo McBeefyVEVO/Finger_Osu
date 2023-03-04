@@ -1,8 +1,8 @@
 const playfield = document.getElementById("playfield");
 const circle = document.getElementById("circle");
 const score = document.getElementById("score");
-
-
+const clicksound = document.getElementById("clicksound");
+const theme = document.getElementById("theme");
 
 start.onclick = () => {
     document.body.style.background = "url(/res/img/play_background.jpg)";
@@ -22,6 +22,8 @@ start.onclick = () => {
     circle.style.top = `${y}px`;
     circle.style.left = `${x}px`;
 
+    theme.play();
+    theme.volume = 0.2;
 }
 
 let x = 0;
@@ -42,6 +44,9 @@ circle.onclick = () => {
 randomnumber();
 circle.style.top = `${y}px`;
 circle.style.left = `${x}px`;
+
 score_alpha += 200;
 score.innerHTML = score_alpha;
+
+clicksound.play();
 }
