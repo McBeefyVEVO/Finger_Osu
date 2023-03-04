@@ -1,0 +1,60 @@
+body {
+    background-image:url(/res/img/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#start {
+    display: block;
+
+    opacity: 75%;
+    
+    position: absolute;
+    
+    top: 50%;
+    left: 45%;
+
+    padding: 20px;
+    font-size: 50px;
+
+    
+}
+
+#playfield{
+    border: 1px solid gray;
+    width: 1250px;
+    height: 800px;
+    margin: auto;
+    margin-top: 4%;
+    background-color: gray;
+    opacity: 75%;
+
+    display: none;
+}
+
+#circle{
+    position: relative;
+    display: block;
+    float:left;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    background-image: url("/res/img/cursor_final.png");
+    transition: 0.10s;
+
+    display: none;
+    
+}
+
+#score{
+    display: none;
+    
+    position: absolute;
+    top: 0px;
+    left: 75px;
+    font-size: 50px;
+
+}
