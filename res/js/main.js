@@ -29,6 +29,8 @@ start.onclick = () => {
     hp_img3.style.display = "block";
 
     interval = setInterval(timer, 1250);
+
+    randomnumber();
     
     circle.style.top = `${y}px`;
     circle.style.left = `${x}px`;
