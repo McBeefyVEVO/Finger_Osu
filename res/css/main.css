@@ -58,3 +58,84 @@ body {
     font-size: 50px;
 
 }
+
+#hp{
+    display: none;
+    
+    position: absolute;
+    top: 0px;
+    right: 75px;
+    font-size: 50px; 
+}
+
+#hp1{
+    display: none;
+    
+    position: absolute;
+    top:10px;
+    right: 65px;
+
+    width: 120px;
+    height: 120px;
+    
+}
+
+#hp2{
+    display: none;
+    
+    position: absolute;
+    top: 10px;
+    right: 75px;
+
+    width: 120px;
+    height: 120px;
+    
+}
+
+#hp3{
+    display: none;
+    
+    position: absolute;
+    top:10px;
+    right: 85px; 
+
+    width: 120px;
+    height: 120px;
+    
+}
+
+#ded{
+    display: none;
+    position: absolute;
+    
+    top: 10%;
+    left: 36%;
+
+}
+
+#dedtext{
+    display: none;
+    position: absolute;
+    
+    top: 50%;
+    left: 37.5%;
+
+    padding: 20px;
+    font-size: 70px;
+
+    border: 1px solid gray;
+    background-color: gray;
+
+}
+
+#retry{
+    display: none;
+    position: absolute;
+    
+    top: 64%;
+    left: 45.5%;
+
+    padding: 20px;
+    font-size: 30px;
+
+}
